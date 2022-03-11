@@ -1,3 +1,13 @@
 h1 {
     font-family: 'BhuTuka Expanded One', cursive;
 }
+
+body {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
