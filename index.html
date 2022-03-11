@@ -12,59 +12,50 @@
 </head>
 
 <body>
-    <header>
-
-        <div class="hero">
-            <img src="wave.png" alt="A simple wave Icon" height="64px" width="64px">
-            <h1>Sign Up Form!</h1>
-        </div>
-
-        <div class="attributions">
-            <p>Photo by <a href="https://unsplash.com/@_bunny_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anubhav Shekhar</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-            <p><a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Freepik - Flaticon</a></p>
-        </div>
-    </header>
-
-
-    <main>
-
-        <div>
-            <p class="description">This is not real! You know you need a vacation! A place to relax and live your wildest dreams! Sign up now to get started.</p>
-            <p class="call-to-action">You know you want to.</p>
-        </div>
-
-        <form action="">
-
-            <fieldset>
+    <div class="container">
+        <header>
+            <div class="hero">
+                <img src="wave.png" alt="A simple wave Icon" height="64px" width="64px">
+                <h1>Sign Up Form!</h1>
+            </div>
+            <div class="attributions">
+                <p>Photo by <a href="https://unsplash.com/@_bunny_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anubhav Shekhar</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+                <p><a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Freepik - Flaticon</a></p>
+            </div>
+        </header>
+        <main>
+            <div class="description-container">
+                <p class="description">This is not real! You know you need a vacation! A place to relax and live your wildest dreams! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque sem quis erat suscipit suscipit. Nunc ullamcorper quam a hendrerit
+                    vulputate. Integer convallis nisl diam, et hendrerit mauris auctor sit amet. Sign up <em>now</em> to get started.</p>
+                <p class="call-to-action">You <em>know</em> you want to.</p>
+            </div>
+            <form id="myform" action="">
                 <h2 class="form-label">Let's do this!</h2>
-
-                <label for="first_name">First Name</label>
-                <input id="first_name" type="text" name="first_name">
-
-                <label for="last_name">Last Name</label>
-                <input id="last_name" type="text" name="last_name">
-
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-
-                <label for="phone_number">Phone Number</label>
-                <input type="tel" name="phone_number" id="phone_number">
-
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-
-                <label for="c_password">Confirm Password</label>
-                <input type="password" name="c_password" id="c_password">
-            </fieldset>
-
-            <button type="submit">Create Account</button>
-
-
-        </form>
-
-        <p class="log-in">Already have an account? <a href="">Log In</a></p>
-
-    </main>
+                <section>
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" type="text" name="first_name">
+                    <label for="last_name">Last Name</label>
+                    <input id="last_name" type="text" name="last_name">
+                </section>
+                <section>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" name="phone_number" id="phone_number">
+                </section>
+                <section>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    <label for="c_password">Confirm Password</label>
+                    <input type="password" name="c_password" id="c_password">
+                </section>
+            </form>
+            <div class="buttons">
+                <button form="myform" type="submit" class="submit">Create Account</button>
+                <p class="log-in">Already have an account? <a href="">Log In</a></p>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>

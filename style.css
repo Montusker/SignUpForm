@@ -1,6 +1,15 @@
-h1 {
-    font-family: 'BhuTuka Expanded One', cursive;
+body {
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+/* left side of page */
 
 header {
     background-image: url(ocean.jpeg);
@@ -23,6 +32,10 @@ header {
     gap: 15px;
 }
 
+h1 {
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
 .attributions {
     position: absolute;
     bottom: 0;
@@ -38,19 +51,51 @@ header {
     color: white;
 }
 
-body {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
+
+/* rigth side of page */
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: 0;
+    width: 67vw;
+}
+
+.description-container {
+    font-size: large;
+    font-weight: bold;
+    width: 85%;
 }
 
 form {
     margin: 0;
+    height: 33vh;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px lightgray;
+    padding-left: 40px;
+}
+
+.buttons {
+    margin-top: 25px;
+    padding-left: 40px;
+}
+
+.submit {
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.buttons a {
+    color: navy;
+    text-decoration: none;
+}
+
+.description-container {
+    padding-left: 40px;
+    margin-bottom: 60px;
 }
