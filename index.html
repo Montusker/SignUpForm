@@ -29,27 +29,37 @@
                     vulputate. Integer convallis nisl diam, et hendrerit mauris auctor sit amet. Sign up <em>now</em> to get started.</p>
                 <p class="call-to-action">You <em>know</em> you want to.</p>
             </div>
-            <form id="myform" action="">
-                <h2 class="form-label">Let's do this!</h2>
-                <section>
-                    <label for="first_name">First Name</label>
-                    <input id="first_name" type="text" name="first_name">
-                    <label for="last_name">Last Name</label>
-                    <input id="last_name" type="text" name="last_name">
-                </section>
-                <section>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="phone_number">Phone Number</label>
-                    <input type="tel" name="phone_number" id="phone_number">
-                </section>
-                <section>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <label for="c_password">Confirm Password</label>
-                    <input type="password" name="c_password" id="c_password">
-                </section>
-            </form>
+
+
+            <div class="form-holder">
+                <h2 class="form-label">Let's do this!
+                    <form id="myform" action="">
+                        <div class="form-section">
+                            <label for="first_name">First Name</label>
+                            <input id="first_name" type="text" name="first_name">
+                        </div>
+                        <div class="form-section">
+                            <label for="last_name">Last Name</label>
+                            <input id="last_name" type="text" name="last_name">
+                        </div>
+                        <div class="form-section">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form-section">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" name="phone_number" id="phone_number">
+                        </div>
+                        <div class="form-section">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form-section">
+                            <label for="c_password">Confirm Password</label>
+                            <input type="password" name="c_password" id="c_password">
+                        </div>
+                    </form>
+            </div>
             <div class="buttons">
                 <button form="myform" type="submit" class="submit">Create Account</button>
                 <p class="log-in">Already have an account? <a href="">Log In</a></p>

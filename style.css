@@ -69,12 +69,37 @@ main {
     width: 85%;
 }
 
-form {
-    margin: 0;
-    height: 33vh;
+.form-holder {
     background-color: white;
     box-shadow: 0 4px 2px -2px lightgray;
     padding-left: 40px;
+    height: 30vh;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 21vh;
+    width: min-content;
+}
+
+label {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+input {
+    height: 25px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 7vh;
+    margin-right: 60px;
 }
 
 .buttons {
